@@ -14,7 +14,8 @@ app.use("/api/image", imageRouter);
 app.get("/", (req, res) => {
   res.send("API Working");
 });
-app.listen(PORT, () => console.log("Server running on port" + PORT));
+// app.listen(PORT, () => console.log("Server running on port" + PORT));
 
 //https://localhost:3000/api/user/register
 //https://localhost:3000/api/user/login
+export default app;
